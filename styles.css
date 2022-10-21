@@ -1,0 +1,177 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.img {
+    width: 370;
+    height: 370; 
+    margin: 10%;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(238, 198, 22);
+  }
+  .flex-container-2 {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgb(196, 70, 238);
+    align-items: center;
+    justify-content: center;
+}
+.flex-container-3 {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgb(135, 215, 249);
+    align-items: center;
+    justify-content: center;
+}
+.button-text {
+    font-family: American Typewriter;
+    font-size: 2vw;
+    margin: 30px;
+    color: white;
+}
+.input-text {
+  font-family: American Typewriter;
+  font-size: 2.3vw;
+  color: white;
+  margin: 15px;
+}
+.regular-text {
+    font-family: Lucida Handwriting;
+    font-size: 1vwpx;
+    color: white;
+    margin: 20px;
+}
+.title-text {
+    font-family: Lucida Handwriting;
+    font-size: 5vw;
+    margin: 14px;
+    color: white;
+}
+.header-text {
+    font-family: Lucida Handwriting;
+    font-size: 2vw;
+    color: grey;
+    text-align: center;
+    margin: 20px;
+}
+.small-text {
+    font-family: American Typewriter;
+    font-size: 2.2vw;
+    margin: 12px;
+    color: rgb(245, 239, 239);
+    margin: 15px;
+}
+.left-text {
+    font-family: American Typewriter;
+    font-size: 1vw;
+    color: grey;
+    text-align: left;
+}
+.list-text {
+    font-family: American Typewriter;
+    font-size: 1vw;
+    color: rgb(75, 58, 174);
+}
+
+
+/* CSS */
+.button-44 {
+  background: #e62143;
+  border-radius: 11px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  font-family: Mija,-apple-system,BlinkMacSystemFont,Roboto,"Roboto Slab","Droid Serif","Segoe UI",system-ui,Arial,sans-serif;
+  font-size: 1vw;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 33.4929px;
+  padding: .8em 1em;
+  text-align: center;
+  text-decoration: none;
+  text-decoration-skip-ink: auto;
+  text-shadow: rgba(0, 0, 0, .3) 1px 1px 1px;
+  text-underline-offset: 1px;
+  transition: all .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 12%;
+  word-break: break-word;
+  border: 0;
+  margin: 10px;
+}
+
+.button-44:active,
+.button-44:focus {
+  border-bottom-style: none;
+  border-color: #dadada;
+  box-shadow: rgba(0, 0, 0, .3) 0 3px 3px inset;
+  outline: 0;
+}
+
+.button-44:hover {
+  border-bottom-style: none;
+  border-color: #dadada;
+}
+article {
+    background: linear-gradient(
+      to right, 
+      rgb(248, 234, 85), 
+      rgb(232, 217, 2)
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+  }
+  
+  g {
+    font-size: 10vmin;
+    line-height: 1.1;
+  }
+  
+  b {
+    min-block-size: 100%;
+    min-inline-size: 100%;
+    box-sizing: border-box;
+    display: grid;
+    place-content: center;
+    font-family: system-ui;
+    font-size: 20px;
+  }
+  
+  g, p, b {
+    margin: 0;
+  }
+  
+  p {
+    font-family: "Dank Mono", ui-monospace, monospace;
+  }
+  
+  html {
+    block-size: 100%;
+    inline-size: 100%;
+  }
+  .btn {
+    border: none;
+    background-color: inherit;
+    padding: 1vw 1vw;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+  }
+.btn:hover {background: rgb(184, 180, 180);}
+
+.home {color: white; font-size: 2vw; font-family: American Typewriter;}
+.menu {color: white; font-size: 2vw; font-family: American Typewriter;}
+.location {color: white; font-size: 2vw; font-family: American Typewriter;}
+.contact {color: white; font-size: 2vw; font-family: American Typewriter;}
+.phone {color: white; font-size: 2vw; font-family: American Typewriter;}
